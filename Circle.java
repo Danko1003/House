@@ -11,8 +11,8 @@ import java.awt.geom.*;
 public class Circle
 {
     private int diameter;
-    private int xPosition;
-    private int yPosition;
+    private double xPosition;
+    public int yPosition;
     private String color;
     private boolean isVisible;
     
@@ -22,7 +22,7 @@ public class Circle
     public Circle()
     {
         diameter = 68;
-        xPosition = 230;
+        xPosition = 230.3;
         yPosition = 90;
         color = "blue";
     }
@@ -58,7 +58,7 @@ public class Circle
      */
     public void moveLeft()
     {
-        moveHorizontal(-20);
+        moveHorizontal(-20.5);
     }
 
     /**
@@ -80,7 +80,7 @@ public class Circle
     /**
      * Move the circle horizontally by 'distance' pixels.
      */
-    public void moveHorizontal(int distance)
+    public void moveHorizontal(double distance)
     {
         erase();
         xPosition += distance;

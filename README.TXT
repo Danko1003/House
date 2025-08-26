@@ -17,3 +17,6 @@ This project is often used after studying the "shapes" project. It
 adds a class to those ones in "shapes". That class (named "Picture")
 uses the shapes to draw a picture. It can be used to experiment with 
 modifying source code.
+
+For 2 suns I sent a picture in the files aswell as if you go to Picture file, you
+can reenable the code simply by making the second sun visible. The current code that is activated represents the sunset code.

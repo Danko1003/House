@@ -15,6 +15,8 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
+    private Circle the_mighty_incredible_terrific_second_sun;
+    private Person guy;
     private boolean drawn;
 
     /**
@@ -26,6 +28,8 @@ public class Picture
         window = new Square();
         roof = new Triangle();  
         sun = new Circle();
+        guy = new Person();
+        the_mighty_incredible_terrific_second_sun = new Circle();
         drawn = false;
     }
 
@@ -53,9 +57,24 @@ public class Picture
     
             sun.changeColor("yellow");
             sun.moveHorizontal(100);
-            sun.moveVertical(-40);
+            sun.moveVertical(-100);
+            sun.slowMoveVertical(100);
+            
             sun.changeSize(80);
+            
             sun.makeVisible();
+            sun.slowMoveVertical(1000);
+            the_mighty_incredible_terrific_second_sun.changeColor("yellow");
+            the_mighty_incredible_terrific_second_sun.moveHorizontal(-200);
+            the_mighty_incredible_terrific_second_sun.moveVertical(-40);
+            the_mighty_incredible_terrific_second_sun.changeSize(80);
+            
+            guy.moveHorizontal(-100);
+            guy.slowMoveHorizontal(100);
+            guy.makeVisible();
+            
+            
+            
             drawn = true;
         }
     }
