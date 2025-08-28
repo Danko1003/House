@@ -61,17 +61,25 @@ public class Picture
             sun.slowMoveVertical(100);
             
             sun.changeSize(80);
-            
             sun.makeVisible();
+            guy.makeVisible();
+            guy.moveHorizontal(-150);
+            guy.slowMoveHorizontal(-10);
+            guy.moveVertical(50);
+            guy.slowMoveHorizontal(200);
+            
+            
             sun.slowMoveVertical(1000);
             the_mighty_incredible_terrific_second_sun.changeColor("yellow");
             the_mighty_incredible_terrific_second_sun.moveHorizontal(-200);
             the_mighty_incredible_terrific_second_sun.moveVertical(-40);
             the_mighty_incredible_terrific_second_sun.changeSize(80);
             
-            guy.moveHorizontal(-100);
-            guy.slowMoveHorizontal(100);
-            guy.makeVisible();
+            
+            
+            
+            
+            
             
             
             
